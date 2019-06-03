@@ -1,0 +1,726 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../Common/fonts/ProximaNovaRegular.woff2') format('woff2'),
+        url('../Common/fonts/ProximaNovaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Common/fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('../Common/fonts/ProximaNovaT-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Common/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../Common/fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Common/fonts/ProximaNova-Medium.woff2') format('woff2'),
+        url('../Common/fonts/ProximaNova-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../Common/fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../Common/fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'proxima-nova', sans-serif;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+figure{
+    margin:0 0 ;
+}
+.head-bg{
+    background-color: #1E1D28;
+    position: relative;
+}
+
+.logo-img{
+  margin-top: 44px;
+}
+
+.logo-img img{
+    width: 226px;
+}
+
+.img-ellipse{
+    position: absolute;
+    top: 44px;
+    left: -20px;
+}
+.nav-li{
+    padding: 42px 22px 0px 22px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero-text{
+    width: 85%;
+    margin: 167px 0px 0px 0px;
+}
+
+.hero-text h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.page-btn{
+    background-color: #0D51FF;
+    margin-top: 116px;
+    margin-bottom: 217px;
+    padding: 17px 29.5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.page-btn:hover{
+    background-color: rgb(15, 70, 207);
+}
+.sec-one-popupbtns-wrapper{
+    position: absolute;
+    right: 50px;
+    bottom:-40px;
+}
+.sec-one-popupbtns{
+    transform: rotate(270deg);
+    z-index: 0;
+}
+
+.sec-one-popupbtns button{
+    display: block;
+    width: 268px;
+    height: 91px;
+    background: #0D51FF !important;
+    border-radius: 0px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.9);
+}
+
+.sec-one-popupbtns button:hover{
+    background: rgb(15, 70, 207) !important;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+
+/****** Section One ********/
+.sec-one-wrapper{
+    background-image: url(../images/Rectangle\ 5.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20px !important;
+}
+
+.sec-one-content{
+    margin-top: 36px;
+    margin-bottom: 73px;
+}
+
+.sec-one-num h4{
+    color: #0D51FF;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    
+}
+.sec-one-heading{
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.sec-one-num{
+    width: 34px;
+    height: 34px;
+    border-radius:34px;
+    background:#ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.sec-one-title{
+    margin-bottom: 11.5px;
+}
+.sec-one-title h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sec-one-text{
+    margin-top: 25.5px;
+    position: relative;
+}
+.sec-one-text p{
+    font-size:16px;
+    font-weight: normal; 
+}
+
+.sec-one-text::before{
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    left: 40px;
+    right: 0;
+    top: -40px;
+    color: #0D51FF;
+    border: 1px solid ;
+}
+
+.sec-one-call-btn{
+    padding: 16px 42px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #0D51FF !important;
+}
+.sec-one-call-btn:hover{
+    background-color: rgb(15, 70, 207) !important;
+}
+
+.sec-one-content-services{
+    margin-bottom: 20px;
+}
+
+.sec-one-service-heading{
+    margin-bottom: 80px;
+}
+
+.sec-one-service-list{
+    margin-bottom: 115px;
+}
+
+.sec-one-service-list .card{
+    border-bottom: 15px solid #0D51FF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.sec-one-service-list .card-body{
+    margin: 0;
+    padding: 0px 0px;
+    padding-bottom: 36px;
+}
+.sec-one-service-list .card-title{
+    padding: 18px 0px 25px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    line-height: 24px;
+}
+.sec-one-service-list ul{
+    margin: 0;
+    padding: 0;
+}
+.sec-one-service-list li{
+    list-style: none;
+}
+.sec-one-service-list li::before{
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.275rem;
+    border-radius: 0.275rem;
+    height: 8px;
+    width: 8px;
+    margin-left: 25px;
+    background-color:#000000;
+}
+.sec-one-service-list li:hover{
+    background-color:#FF7A59;
+}
+
+.sec-one-service-list a{
+    padding: 6px 0px;
+    font-size: 14px;
+    font-weight: thin;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 13px;
+}
+.sec-one-service-list a:hover{
+    font-weight: normal;
+    color: #ffffff;
+}
+.extra-link a{
+    color: #0D51FF;
+    font-size: 10px;
+    font-weight: normal;
+    padding-left: 25px;
+}
+.extra-link a:hover{
+    color: #FF7A59;
+}
+
+/**********************/
+
+.sec-two-technostack{
+    margin-top: 107px;
+    margin-bottom: 113px !important;
+}
+.sec-two-heading{
+    margin-bottom: 52px;
+}
+.sec-one-heading h2,
+.sec-one-service-heading h2,
+.sec-two-heading h2,
+.sec-three-heading h2,
+.sec-four-heading h2,
+.sec-five-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1E1D28;
+}
+
+
+.tech-stack-logo{
+    margin-bottom: 69px;
+}
+
+.sec-three-different-wrapper{
+    background-image: url(../images/Vector\ 2.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 175px;
+    margin-top: 67px;
+}
+
+.sec-three-heading{
+    margin-bottom: 113px;
+}
+.sec-three-list .card{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sec-three-list .card-body{
+    margin: 0;
+    padding: 0;
+}
+.sec-three-list .card-title{
+    background: #0D51FF;
+    text-align: center;
+    padding: 26px 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.sec-three-list .card-spl-title{
+    background: #E62F4A;
+}
+.sec-three-list .card-spl{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.sec-three-list ul{
+    padding: 46px 20px 0px 44px;
+}
+.sec-three-list li{
+    padding: 20px 0px;
+}
+.sec-three-list li span{
+    font-size: 18px;
+    font-weight: normal;
+    color: #808080;
+}
+
+/******* section four css ****************/
+
+.sec-four-heading{
+    margin-bottom: 61px;
+}
+.sec-four-models{
+    width: 682px;
+    margin: 0 auto;
+    margin-bottom: 167px;
+}
+.sec-four-switch{
+    width: 480px;
+    margin: 0 auto;
+}
+.sec-four-switch figure img{
+    width: 56px;
+    height: 56px;
+}
+.sec-four-switch figcaption{
+margin-top: 8px;
+margin-bottom: 24px;
+position: relative;
+}
+.sec-four-switch figcaption::after{
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 10px;
+    left: 0px;
+    right: 0;
+    top: 40px;
+    background-color: #0D51FF;
+    border-radius: 6px;
+}
+.sec-four-switch figcaption:nth-child(){
+    opacity: 0.4;
+}
+
+
+.sec-four-switch figcaption h6{
+    font-size: 20px;
+    font-weight: normal;
+}
+.sec-four-switch figcaption h6:nth-child(2){
+    font-weight: lighter;
+}
+.sec-four-text{
+    margin-top: 69px;
+}
+.sec-four-text p{
+text-align: center;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0.2px;
+
+}
+
+/******** sec five css*************/
+.sec-five-choose-wrapper{
+    background-image: url(../images/Vector\ 3.png);
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+.sec-five-content{
+    margin-top: 90px;
+    margin-bottom: 102px;
+}
+.sec-five-content figure{
+    margin-bottom: 35px;
+}
+.sec-five-content figcaption{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.sec-five-content p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/********* Section six team CSS   *************/
+.sec-six-team img{
+    width: 100%;
+}
+
+/******* $$$$$$$$$ Footer  $$$$$$$ ****************/
+.sec-footer-wrapper{
+    background-color: #0D51FF;
+    overflow: hidden;
+}
+.demo{
+    margin-top:96px;
+    margin-bottom:62px;
+}
+.demo h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.footer-setting{
+    padding-bottom: 118px;
+}
+
+.footer-setting figcaption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 38px 0px;
+    color: #ffffff;
+}
+.btn-footer{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 19px 36px;
+    font-size: 14px;
+}
+.btn-footer-mid{
+    border: 2px solid #ffffff;
+    color:#0D51FF;
+    background: #ffffff;
+    font-weight: bold;
+    padding: 19px 36px;
+    font-size: 14px;
+}
+
+
+
+
+/********* Media Query Medium*************/
+@media only screen and (max-width: 991px){
+    .logo-img{
+        margin-top: 25px;
+      }
+   .logo-img img{
+    width: 180px;
+    }
+
+    .hero-text h2{
+        font-size: 30px;
+    }
+    .sec-one-popupbtns-wrapper{
+        display: none;
+    }
+    .sec-one-setting {
+        margin-bottom: 50px;
+    }
+    .sec-one-service-list {
+        margin-bottom: 50px;
+    }
+    .sec-one-service-heading{
+        margin-bottom: 50px;
+    }
+    .sec-one-service-list .card{
+        margin-bottom: 30px;
+    }
+    .sec-one-service-list .card:nth-last-child(4){
+        margin-bottom: 0px;
+    }
+    
+    .sec-four-models{
+            width: 100%;
+    }
+    .sec-four-switch{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec-four-text{
+        padding: 0px 20px;
+        margin-top: 60px;
+    }
+    .sec-four-switch figcaption h6 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .sec-four-switch figcaption::after {
+        top: 70px;
+    }
+    .sec-four-models {
+        margin-bottom: 70px;
+}
+    .stack-logo{
+        padding: 20px;
+    }
+    .tech-stack-logo {
+        margin-bottom: 0px;
+    }
+
+    .sec-one-heading h2,
+    .sec-one-service-heading h2,
+    .sec-two-heading h2,
+    .sec-three-heading h2,
+    .sec-four-heading h2,
+    .sec-five-heading h2{
+        font-size: 30px;
+    }
+    .sec-two-technostack {
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+    }
+
+    .sec-three-different-wrapper{
+        margin: 50px 0px;
+    }
+    .sec-three-heading {
+        margin-bottom: 50px;
+    }
+    .sec-three-list .card-spl{
+        transform: scale(1);
+        z-index: 1;
+    }
+
+    .sec-four-switch-list{
+        width: 50%;
+        text-align: center;
+    }
+
+    .sec-five-content figcaption {
+        margin-bottom: 10px;
+    }
+
+    .sec-five-data{
+        margin: 10px 0px;
+    }
+    .sec-five-content{
+        margin: 50px 0px;
+    }
+    .demo{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .demo h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .footer-setting{
+        padding-bottom: 75px;
+    }
+    .demo-list{
+        padding: 20px;
+    }
+    .sec-five-data{
+        text-align: center;
+    }
+}
+
+
+
+/************Media Query Mobile***************/
+@media only screen and (max-width: 767px) {
+    .logo-img{
+        margin-top: 25px;
+      }
+   .logo-img img{
+    width: 180px;
+    }
+
+    .hero-text h2{
+        font-size: 30px;
+    }
+    .sec-one-popupbtns-wrapper{
+        display: none;
+    }
+    .sec-one-setting {
+        margin-bottom: 50px;
+    }
+    .sec-one-service-list {
+        margin-bottom: 50px;
+    }
+    .sec-one-service-heading{
+        margin-bottom: 50px;
+    }
+    .sec-one-service-list .card{
+        margin-bottom: 30px;
+    }
+    .sec-one-service-list .card:nth-last-child(4){
+        margin-bottom: 0px;
+    }
+    
+    .sec-four-models{
+            width: 100%;
+    }
+    .sec-four-switch{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sec-four-text{
+        padding: 0px 20px;
+        margin-top: 60px;
+    }
+    .sec-four-switch figcaption h6 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .sec-four-switch figcaption::after {
+        top: 70px;
+    }
+    .sec-four-models {
+        margin-bottom: 70px;
+}
+    .stack-logo{
+        padding: 20px;
+    }
+    .tech-stack-logo {
+        margin-bottom: 0px;
+    }
+
+    .sec-one-heading h2,
+    .sec-one-service-heading h2,
+    .sec-two-heading h2,
+    .sec-three-heading h2,
+    .sec-four-heading h2,
+    .sec-five-heading h2{
+        font-size: 30px;
+    }
+    .sec-two-technostack {
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+    }
+
+    .sec-three-different-wrapper{
+        margin: 50px 0px;
+    }
+    .sec-three-heading {
+        margin-bottom: 50px;
+    }
+    .sec-three-list .card-spl{
+        transform: scale(1);
+        z-index: 1;
+    }
+
+    .sec-four-switch-list{
+        width: 50%;
+        text-align: center;
+    }
+
+    .sec-five-content figcaption {
+        margin-bottom: 10px;
+    }
+
+    .sec-five-data{
+        margin: 10px 0px;
+    }
+    .sec-five-content{
+        margin: 50px 0px;
+    }
+    .demo{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .demo h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .footer-setting{
+        padding-bottom: 75px;
+    }
+    .demo-list{
+        padding: 20px;
+    }
+    .sec-five-data{
+        text-align: center;
+    }
+}
